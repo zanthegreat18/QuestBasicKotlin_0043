@@ -13,5 +13,5 @@ fun uppercaseString(string: String): String {
 fun main() {
 uppercaseString("Hello")
 println({string: String -> string.uppercase()  }("Hello"))
-// Hello
+// Hello0
 }
