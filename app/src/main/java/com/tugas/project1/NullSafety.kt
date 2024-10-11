@@ -12,4 +12,16 @@ var nullable: String? = "You can keep a null here"
 
 // Ini ok
 nullable = null
+
+// Mengecek kondisi null
+if (neverNull == null) {
+    println("inferredNonNull is null")
+} else {
+    println("infeeredNonNull is not null")
+}
+
+// Safe call operator
+println(neverNull.length) // 18
+println(nullable?.length) // null
+
 }
