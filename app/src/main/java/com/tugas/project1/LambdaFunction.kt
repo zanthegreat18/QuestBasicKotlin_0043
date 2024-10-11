@@ -9,3 +9,9 @@ fun uppercaseString(string: String): String {
     return string.uppercase()
 }
 
+// Dapat ditulis dalam ekspresi lambda sbb :
+fun main() {
+uppercaseString("Hello")
+println({string: String -> string.uppercase()  }("Hello"))
+// Hello
+}
